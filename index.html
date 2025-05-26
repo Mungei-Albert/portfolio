@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+        
+   </head>
+    <body>
+        <div  id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+
+                    <hi>Hi, I'm <span> Albert</span><br>Mungei From, Kenya</hi>
+                </div>
+
+            </div>
+            
+        </div>
+        <!---------------- about ----------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.png">
+                    </div>
+                    <div class="about-col-2">
+                        <hi class="sub-title">About Me</hi>
+                        <p></p>"I’m a passionate UI/UX designer crafting intuitive and visually captivating digital experiences. 
+                        Currently developing my personal portfolio,
+                         I’m on a journey to showcase creativity, precision, and the stories behind my designs. 
+                         Designing isn’t just my skill—it’s my art, where every pixel and interaction is infused with meaning."  
+                            
+                            </p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                    <li><span>Web Development</span><br>Web app Development</li>
+                                    <li><span>App Development</span><br>Building Android/ios apps</li>
+
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                                    <li><span>2019 - 2021</span><br>Team lead at StartApp LLC.</li>
+                                    <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                                    <li><span>2016 - 2017</span><br>Internship at ekart ecommerce.</li>
+                                   
+
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2016</span><br>UI/UX Design Trainging at ET Institute</li>
+                                    <li><span>2016</span><br>MBA MIT Bangalore</li>
+                                    <li><span>2014</span><br>BBA ISM Bangalore</li>
+
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+
+        <!--------------services--------------->
+        
+    <div id="services">
+        <div class="container">
+            <hi class="sub-title">My Services</hi>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>"Crafting modern, user-friendly websites tailored to your needs.
+                         My designs blend creativity with functionality for an exceptional online presence."</p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>"Designing intuitive interfaces that enhance user experiences. 
+                        I focus on creating seamless, visually appealing, and functional designs."</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-apple-whole"></i>
+                    <h2>App Design</h2>
+                    <p>"Creating sleek, user-friendly app designs tailored for seamless navigation. 
+                        I focus on functionality and aesthetics to deliver exceptional user experiences."</p>
+                        <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>   
+    
+    <!---------------portfolio------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects you to the talented prople around the world.
+                                Download it from play store.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>The app connects you to the talented prople around the world.
+                                Download it from play store.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Online shopping App</h3>
+                            <p>The app connects you to the talented prople around the world.
+                                Download it from play store.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+
+        </div>
+
+        <!---------------contact------------------->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <hi class="sub-title">Contact Me</hi>
+                        <p><i class="fa-solid fa-paper-plane"></i>albertmungei793@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+254708599905</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/Mungei-Albert"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/albert-mungei-22b3581b3/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.discord.com/albert/"><i class="fa-brands fa-discord"></i></a>
+                            <a href="https://www.instagram.com/flos_sey/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://x.com/mungei_albert"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://www.tiktok.com/@flossey_"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                            <input class="form-input" type="text" name="Name" placeholder="Your Name" required>
+                            <input class="form-input" type="email" name="Email" placeholder="Your Email" required>
+                            <textarea class="form-textarea" name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button class="form-btn2" type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+            <div class="copyright">
+                <p>𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 © 2025 𝑨𝑳𝑩𝑬𝑹𝑻 𝑴𝑼𝑵𝑮𝑬𝑰. <i class="fa-regular fa-heart"></i>𝑨𝒍𝒍 𝑹𝒊𝒈𝒉𝒕𝒔 𝑹𝒆𝒔𝒆𝒓𝒗𝒆𝒅.</P>
+            </div>
+        </div>
+
+
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+           
+
+            
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+           
+            
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx7uSu0-icUfmvoyMmcFl9wGE-ZsF4u1B4vopIsJXwJ7iOfGOC-8VGckEGKX3lGTNKN/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById('msg')
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzrX0r_IpaL-dg-f1dpUMzfyk7KSk4Xs3F0X78jjW4ZxxJ6kLXptcSVyaUM0HvIwhg/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+        
+    </body>
+</html>
